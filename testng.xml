@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<test thread-count="5" name="Testng1">
+    <classes>
+      <class name="loginTests.AppTest"/>
+    </classes>
+  </test> <!-- Testng -->
+  <test thread-count="5" name="Testng">
+    <classes>
+      <class name="loginTests.ComparisionTc"/>
+    </classes>
+  </test> <!-- Testng -->
+  <test thread-count="5" name="Testng2">
+    <classes>
+      <class name="loginTests.UdemyLogin"/>
+    </classes>
+  </test> <!-- Testng -->
+</suite> <!-- Suite -->

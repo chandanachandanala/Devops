@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16553" started-at="2021-09-27T11:52:55 IST" finished-at="2021-09-27T11:53:12 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16553" started-at="2021-09-27T11:52:55 IST" finished-at="2021-09-27T11:53:12 IST">
+      <class name="loginTests.UdemyLogin">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:loginTests.UdemyLogin@1a8a8f7c]" name="beforeTest" is-config="true" duration-ms="3322" started-at="2021-09-27T11:52:55 IST" finished-at="2021-09-27T11:52:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="dologin()[pri:0, instance:loginTests.UdemyLogin@1a8a8f7c]" name="dologin" duration-ms="9547" started-at="2021-09-27T11:52:58 IST" finished-at="2021-09-27T11:53:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dologin -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:loginTests.UdemyLogin@1a8a8f7c]" name="afterTest" is-config="true" duration-ms="3588" started-at="2021-09-27T11:53:08 IST" finished-at="2021-09-27T11:53:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- loginTests.UdemyLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
